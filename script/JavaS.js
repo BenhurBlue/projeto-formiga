@@ -1,1 +1,1 @@
-alert('Cuidado com o formigueiro')
+/*alert('Cuidado com o formigueiro')*/
