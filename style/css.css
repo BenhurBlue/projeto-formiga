@@ -1,32 +1,89 @@
-h2{
-font-size: 30px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: rgb(0, 0, 0);
+body{
+padding: 0px;
+margin: 0px;
+
+}
+.cabecao{
+background-color:darkgreen;
+padding:20px;
+color:antiquewhite;
 text-align: center;
+vertical-align: middle;
+padding-top: auto;
+
+
+
+
 }
 
-/* h3{
-    font-size: 25px;
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+.mtst{
+    max-width: 150px;
+
+
+}
+.mtstTec{
+    width: 150px;
+    position:static;
+   max-width: 150px;
+
+}
+.mtstTec2{
+    max-width: 100%;
+    width: 150px;
+
+
+}
+.img{
+    flex-basis: 10%;
+
+}
+.text{
+    font-size: 12px;
+    padding-left: 1px;
+}
+.caixa{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    text-align: center; 
-    }*/
+    text-align: center;
+    }
     
-
-p{
-    text-align: relative;
-    text-indent: 20px;
-    margin: 30px 50px 30px 50px;
-    font-size:30px;
-}
-
-/* Imagens */
-.horta_foto{
-    position: absolute;
-  
-}
-
-.alinhamento{
-    display: flex;
-    justify-content: center;
-   }
+    /* h3{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center; 
+        }*/
+        
+    
+    p{
+        text-align: relative;
+        text-indent: 20px;
+        margin: 30px 50px 30px 50px;
+        font-size:30px;
+    }
+    
+    /* Imagens */
+    .horta_foto{
+        position: absolute;
+      
+    }
+    
+    .alinhamento{
+        display: flex;
+        justify-content: center;
+       }
