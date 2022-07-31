@@ -1,16 +1,23 @@
+@font-face {
+    font-family: leixo;
+    src: url(../style/LEIXO-DEMO.ttf);
+ }
+
 body{
 padding: 0px;
 margin: 0px;
-background-image: url(../img/fundo.jpg);
+background-image: url(../img/fundo.png);
+background-size: 100%;
 
 }
 .cabecao{
-background-color:#911345;
-padding:20px;
-color:#197432;
+background-color:#b31051;
+padding:5px;
+color:#00b296;
 text-align: center;
 vertical-align: middle;
 padding-top: auto;
+font-family: "leixo";
 
 }
 
@@ -31,12 +38,13 @@ padding-top: auto;
     width: 150px;
     position:static;
    max-width: 150px;
-
+   border-radius: 25%;
+   padding: 10px;
 }
 .mtstTec2{
     max-width: 100%;
     width: 100px;
-
+  
 
 }
 .img{
@@ -55,15 +63,15 @@ padding-top: auto;
 }
 h2{
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
+    font-family:"serif";
+    color: #0047c6;
     text-align: center;
     }
     
     h3{
         font-size: 25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: rgb(0, 0, 0);
+        color: #0047c6;
         text-align: center; 
         }
         
