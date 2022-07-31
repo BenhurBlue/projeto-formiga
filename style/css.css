@@ -5,9 +5,9 @@ background-image: url(../img/fundo.jpg);
 
 }
 .cabecao{
-background-color:darkgreen;
+background-color:#911345;
 padding:20px;
-color:antiquewhite;
+color:#197432;
 text-align: center;
 vertical-align: middle;
 padding-top: auto;
@@ -31,13 +31,12 @@ padding-top: auto;
     width: 150px;
     position:static;
    max-width: 150px;
-   border-radius: 25%;
-   padding: 10px;
+
 }
 .mtstTec2{
     max-width: 100%;
     width: 100px;
-  
+
 
 }
 .img{
