@@ -1,6 +1,7 @@
 body{
 padding: 0px;
 margin: 0px;
+background-image: url(../img/fundo.jpg);
 
 }
 .cabecao{
@@ -10,9 +11,6 @@ color:antiquewhite;
 text-align: center;
 vertical-align: middle;
 padding-top: auto;
-
-
-
 
 }
 
@@ -73,17 +71,24 @@ h2{
     p{
         text-align: relative;
         text-indent: 20px;
-        margin: 30px 50px 30px 50px;
+        margin: 50px 50px 30px 50px;
         font-size:30px;
+       
     }
     
     /* Imagens */
     .horta_foto{
         position: absolute;
-      
+       text-shadow: 2x 2x 2x black;
     }
     
     .alinhamento{
         display: flex;
         justify-content: center;
        }
+
+	.sombra img	{position: relative;
+			top: -3px;
+			left: -3px;}
+
+    
