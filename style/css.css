@@ -31,12 +31,13 @@ padding-top: auto;
     width: 150px;
     position:static;
    max-width: 150px;
-
+   border-radius: 25%;
+   padding: 10px;
 }
 .mtstTec2{
     max-width: 100%;
     width: 100px;
-
+  
 
 }
 .img{
