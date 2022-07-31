@@ -1,4 +1,14 @@
 @font-face {
+    font-family: mukata;
+    src: url(../style/MuktaMahee-ExtraBold.ttf);
+ }
+
+@font-face {
+    font-family: ibm;
+    src: url(../style/IBMPlexMono-Medium.ttf);
+ }
+
+@font-face {
     font-family: leixo;
     src: url(../style/LEIXO-DEMO.ttf);
  }
@@ -38,8 +48,6 @@ font-family: "leixo";
     width: 150px;
     position:static;
    max-width: 150px;
-   border-radius: 25%;
-   padding: 10px;
 }
 .mtstTec2{
     max-width: 100%;
@@ -63,14 +71,14 @@ font-family: "leixo";
 }
 h2{
     font-size: 30px;
-    font-family:"serif";
+    font-family:"mukata";
     color: #0047c6;
     text-align: center;
     }
     
     h3{
         font-size: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: "mukata";
         color: #0047c6;
         text-align: center; 
         }
@@ -81,7 +89,7 @@ h2{
         text-indent: 20px;
         margin: 50px 50px 30px 50px;
         font-size:30px;
-       
+       font-family: "ibm";
     }
     
     /* Imagens */
