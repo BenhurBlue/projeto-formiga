@@ -1,0 +1,190 @@
+@font-face {
+    font-family: mukata;
+    src: url(../style/MuktaMahee-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: ibm;
+    src: url(../style/IBMPlexMono-Medium.ttf);
+}
+
+@font-face {
+    font-family: leixo;
+    src: url(../style/LEIXO-DEMO.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/fundo.png);
+    background-size: 100%;
+
+}
+
+.cabecao {
+    background-color: #b31051;
+    padding: 5px;
+    color: #00b296;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: auto;
+    font-family: "leixo";
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mtst {
+    max-width: 150px;
+
+
+}
+
+.mtstTec {
+    width: 150px;
+    position: static;
+    max-width: 150px;
+}
+
+.mtstTec2 {
+    max-width: 100%;
+    width: 100px;
+
+
+}
+
+.img {
+    flex-basis: 10%;
+
+}
+
+.text {
+    font-size: 12px;
+    padding-left: 1px;
+}
+
+.caixa {
+    background-color: #ac1450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "mukata";
+    color: #0047c6;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "mukata";
+    color: #0047c6;
+    text-align: center;
+}
+
+h4{ 
+    font-size: 30px;
+    font-family: "mukata";
+    color: #ffff;
+    text-align: center;
+}
+
+p {
+    text-align: relative;
+    text-indent: 20px;
+    margin: 50px 50px 30px 50px;
+    font-size: 30px;
+    font-family: "ibm";
+}
+
+/* Imagens */
+.horta_foto {
+    position: absolute;
+    text-shadow: 2x 2x 2x black;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+}
+
+.sombra img {
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+
+.pé {
+    background-color: #ac1450;
+    padding: 20px;
+
+    text-align: center;
+    vertical-align: middle;
+    padding-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/* Tentativa de roda pé  que não deu certo*/
+
+/*
+footer{
+    background-color: #7e44f3;
+    padding-bottom: 50px 0;
+}
+
+footer p{
+    color: antiquewhite;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col .midias{
+    margin-top: 30px;
+
+}
+
+.footer-col .midias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: antiquewhite;
+    border: 1px solid white;
+}*/
